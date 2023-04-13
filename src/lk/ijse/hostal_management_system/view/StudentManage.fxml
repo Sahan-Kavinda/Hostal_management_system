@@ -42,6 +42,9 @@
                </stops>
             </LinearGradient>
          </focusColor>
+         <cursor>
+            <Cursor fx:constant="TEXT" />
+         </cursor>
         </JFXTextField>
         <JFXTextField fx:id="txtName" labelFloat="true" layoutX="346.0" layoutY="104.0" prefHeight="31.0" prefWidth="274.0" promptText="Student Name :" unFocusColor="#fc9300">
             <font>
@@ -55,6 +58,9 @@
                </stops>
             </LinearGradient>
          </focusColor>
+         <cursor>
+            <Cursor fx:constant="TEXT" />
+         </cursor>
         </JFXTextField>
         <JFXTextField fx:id="txtContactNo" labelFloat="true" layoutX="16.0" layoutY="170.0" prefHeight="31.0" prefWidth="274.0" promptText="Contact No :" unFocusColor="#fc9300">
             <font>
@@ -68,6 +74,9 @@
                </stops>
             </LinearGradient>
          </focusColor>
+         <cursor>
+            <Cursor fx:constant="TEXT" />
+         </cursor>
         </JFXTextField>
         <JFXTextField fx:id="txtAddress" labelFloat="true" layoutX="713.0" layoutY="104.0" prefHeight="31.0" prefWidth="274.0" promptText="Student Address :" unFocusColor="#fc9300">
             <font>
@@ -81,6 +90,9 @@
                </stops>
             </LinearGradient>
          </focusColor>
+         <cursor>
+            <Cursor fx:constant="TEXT" />
+         </cursor>
         </JFXTextField>
         <JFXDatePicker fx:id="datePickerDOB" layoutX="346.0" layoutY="170.0" prefHeight="31.0" prefWidth="274.0" promptText="Date Of Birth :" styleClass="combo" stylesheets="@assests/style/style.css">
             <cursor>
@@ -120,26 +132,41 @@
                </stops>
             </LinearGradient>
          </focusColor>
+         <cursor>
+            <Cursor fx:constant="TEXT" />
+         </cursor>
         </JFXTextField>
         <Button fx:id="btnBack1" layoutX="32.0" layoutY="36.0" mnemonicParsing="false" onAction="#BackOnAction" onMouseClicked="#navigateToHome" prefHeight="38.0" prefWidth="131.0" style="-fx-background-color: black; -fx-background-radius: 30; -fx-border-color: white; -fx-border-radius: 30; -fx-border-width: 2;" text="Back" textFill="WHITE">
             <font>
                 <Font name="System Bold" size="15.0" />
             </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
         </Button>
         <Button fx:id="btnAddNew" layoutX="846.0" layoutY="340.0" mnemonicParsing="false" onAction="#btnAddNew_OnAction" onMouseClicked="#navigateToHome" prefHeight="38.0" prefWidth="131.0" style="-fx-background-color: black; -fx-background-radius: 30; -fx-border-color: blue; -fx-border-radius: 30; -fx-border-width: 2;" text="Add New" textFill="WHITE">
             <font>
                 <Font name="System Bold" size="15.0" />
             </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
         </Button>
         <Button fx:id="btnSave" layoutX="846.0" layoutY="427.0" mnemonicParsing="false" onAction="#btnSave_OnAction" onMouseClicked="#navigateToHome" prefHeight="38.0" prefWidth="131.0" style="-fx-background-color: black; -fx-background-radius: 30; -fx-border-radius: 30; -fx-border-color: yellow; -fx-border-width: 2;" text="Save" textFill="WHITE">
             <font>
                 <Font name="System Bold" size="15.0" />
             </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
         </Button>
         <Button fx:id="btnDelete" layoutX="846.0" layoutY="513.0" mnemonicParsing="false" onAction="#btnDelete_OnAction" onMouseClicked="#navigateToHome" prefHeight="38.0" prefWidth="131.0" style="-fx-background-color: black; -fx-background-radius: 30; -fx-border-color: red; -fx-border-radius: 30; -fx-border-width: 2;" text="Delete" textFill="WHITE">
             <font>
                 <Font name="System Bold" size="15.0" />
             </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
         </Button>
       <JFXTextField fx:id="txtAddress1" labelFloat="true" layoutX="713.0" layoutY="170.0" prefHeight="31.0" prefWidth="274.0" promptText="Gender :" unFocusColor="#fc9300">
          <font>
@@ -153,6 +180,9 @@
                </stops>
             </LinearGradient>
          </focusColor>
+         <cursor>
+            <Cursor fx:constant="TEXT" />
+         </cursor>
       </JFXTextField>
 
     </children>

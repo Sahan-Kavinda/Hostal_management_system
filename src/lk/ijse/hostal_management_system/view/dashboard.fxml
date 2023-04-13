@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import javafx.scene.Cursor?>
 <?import javafx.scene.image.Image?>
 <?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
@@ -34,6 +35,9 @@
             </ImageView>
             <Text fill="WHITE" layoutX="44.0" layoutY="152.0" strokeType="OUTSIDE" strokeWidth="0.0" text="key money" />
          </children>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
       </Pane>
       <Pane fx:id="img_registration" layoutX="364.0" layoutY="188.0" onMouseClicked="#img_registration_OnAction" prefHeight="160.0" prefWidth="160.0" style="-fx-border-color: blue; -fx-border-radius: 50; -fx-background-radius: 50;">
          <children>
@@ -44,6 +48,9 @@
             </ImageView>
             <Text fill="WHITE" layoutX="44.0" layoutY="152.0" strokeType="OUTSIDE" strokeWidth="0.0" text="registration" />
          </children>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
       </Pane>
       <Pane fx:id="img_rooms" layoutX="584.0" layoutY="188.0" onMouseClicked="#img_rooms_OnAction" prefHeight="160.0" prefWidth="160.0" style="-fx-border-color: blue; -fx-border-radius: 50; -fx-background-radius: 50;">
          <children>
@@ -54,6 +61,9 @@
             </ImageView>
             <Text fill="WHITE" layoutX="46.0" layoutY="152.0" strokeType="OUTSIDE" strokeWidth="0.0" text="room type" />
          </children>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
       </Pane>
    </children>
 </AnchorPane>
