@@ -10,5 +10,6 @@ public class Dashboard {
     }
 
     public void img_rooms_OnAction(MouseEvent mouseEvent) {
+
     }
 }
