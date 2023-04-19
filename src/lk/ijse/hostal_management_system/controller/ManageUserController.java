@@ -8,7 +8,7 @@ import javafx.scene.control.TableView;
 import javafx.scene.input.MouseEvent;
 import javafx.scene.layout.AnchorPane;
 
-public class ManageUser {
+public class ManageUserController {
     public AnchorPane UserPane;
     public JFXTextField txtId;
     public Button btnBack;

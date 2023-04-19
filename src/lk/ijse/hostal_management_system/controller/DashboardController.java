@@ -2,7 +2,7 @@ package lk.ijse.hostal_management_system.controller;
 
 import javafx.scene.input.MouseEvent;
 
-public class Dashboard {
+public class DashboardController {
     public void img_keymoney_OnAction(MouseEvent mouseEvent) {
     }
 

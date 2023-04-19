@@ -3,7 +3,7 @@ package lk.ijse.hostal_management_system.controller;
 import javafx.event.ActionEvent;
 import javafx.scene.input.MouseEvent;
 
-public class RoomManagement {
+public class RoomManagementController {
     public void btnAddNew_OnAction(ActionEvent actionEvent) {
     }
 

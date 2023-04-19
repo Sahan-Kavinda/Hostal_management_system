@@ -3,7 +3,7 @@ package lk.ijse.hostal_management_system.controller;
 import javafx.event.ActionEvent;
 import javafx.scene.input.MouseEvent;
 
-public class Reservation {
+public class ReservationController {
     public void BackOnAction(ActionEvent actionEvent) {
     }
 
